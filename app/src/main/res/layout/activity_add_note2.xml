@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddNoteActivity"
+    android:background="#E33E86">
+
+
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/baloo_bhaijaan"
+        android:text=" Add task"
+        android:textColor="#F8E0E8"
+        android:textSize="24dp" />
+
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="53dp"
+        android:layout_height="42dp"
+        android:layout_alignTop="@id/addNoteHeading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="28dp"
+        android:src="@drawable/baseline_done_outline_24" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="384dp"
+        android:layout_height="79dp"
+        android:layout_below="@id/addNoteHeading"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/pink_boder"
+        android:fontFamily="@font/calligraffitti"
+        android:hint="Enter the task name"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="#D8CACE"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="395dp"
+        android:layout_height="209dp"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/pink_boder"
+        android:fontFamily="@font/calligraffitti"
+        android:gravity="top"
+        android:hint="Enter the descripion"
+        android:padding="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="#DDCFD4"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

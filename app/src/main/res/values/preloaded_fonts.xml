@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allerta_stencil</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/armata</item>
+        <item>@font/asset</item>
+        <item>@font/assistant_extralight</item>
+        <item>@font/autour_one</item>
+        <item>@font/baloo_bhaijaan</item>
+        <item>@font/bowlby_one_sc</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/chango</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/paytone_one</item>
+    </array>
+</resources>
